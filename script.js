@@ -60,6 +60,5 @@ function computer()
     }   
 }  
 function play(){
-    computer();
     input();
 }
