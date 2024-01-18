@@ -22,6 +22,7 @@ function computer()
             document.getElementById("res").textContent = "Computer chose scissor!";
             comp_choice = "scissor";
         } 
+        console.log(`${comp_choice}`)
         return comp_choice;       
     }
 
@@ -62,3 +63,4 @@ function computer()
 function play(){
     input();
 }
+console.log(`you chose :${inp}`)
