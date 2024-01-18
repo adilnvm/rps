@@ -1,10 +1,12 @@
-let random = Math.random();
-console.log(random);
+
 
 let myform = document.getElementById("myform")
 
 function computer() 
     {
+        let random = Math.random();
+        console.log(random);
+        
         let comp_choice;
         if (random <= 0.33333)
             {
